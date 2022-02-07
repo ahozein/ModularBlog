@@ -1,0 +1,26 @@
+{
+    "name": "module/role",
+    "description": "this module handels roles and permissions",
+    "autoload": {
+        "psr-4": {
+            "Modules\\Role\\": "/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mostafa Khorashadi Zadeh",
+            "email": "safakh1394@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^8.54",
+        "spatie/laravel-permission": "^5.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Role\\Providers\\RoleServiceProvider"
+            ]
+        }
+    }
+}

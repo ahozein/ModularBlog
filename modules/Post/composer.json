@@ -1,0 +1,25 @@
+{
+    "name": "module/post",
+    "description": "this module handels posts",
+    "autoload": {
+        "psr-4": {
+            "Modules\\Post\\": "/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mostafa Khorashadi Zadeh",
+            "email": "safakh1394@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^8.54"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Post\\Providers\\PostServiceProvider"
+            ]
+        }
+    }
+}

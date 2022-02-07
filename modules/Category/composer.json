@@ -1,0 +1,25 @@
+{
+    "name": "module/category",
+    "description": "this module handels categories",
+    "autoload": {
+        "psr-4": {
+            "Modules\\Category\\": "/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mostafa Khorashadi Zadeh",
+            "email": "safakh1394@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^8.54"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Category\\Providers\\CategoryServiceProvider"
+            ]
+        }
+    }
+}
