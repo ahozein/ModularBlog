@@ -421,7 +421,7 @@
 
     <div>
         <div>
-            <h1 class="dark:text-white">HUCH-PRESENTATION Website</h1>
+            <h1 class="dark:text-white">Modular Website</h1>
         </div>
         <div class="flex sm:justify-between text-gray-500">
             <a href="#">Store</a>
